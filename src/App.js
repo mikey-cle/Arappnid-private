@@ -11,7 +11,9 @@ import { ReactComponent as Gallery } from "./images/svg/gallery.svg";
 import Navbar from "./components/Navbar";
 
 function App() {
+
   return (
+    
     <header className="App-header">
    
       <div className="left-container">

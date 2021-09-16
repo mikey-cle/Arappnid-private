@@ -5,12 +5,8 @@ import Navbar from "../../components/Navbar";
 
 export const Login = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Register} />
-        <Route path="/register" component={Register} />
-        <Route path="login" component={Login} />
-      </Switch>
+    
+   
 
       <div className="App">
         <header className="App-header">
@@ -59,7 +55,7 @@ export const Login = () => {
           </div>
         </header>
       </div>
-    </Router>
+   
   );
 };
 
