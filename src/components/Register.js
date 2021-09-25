@@ -1,10 +1,10 @@
-import {ReactComponent as Cockroach } from '../../images/svg/cockroach.svg';
-import {ReactComponent as Spider } from '../../images/svg/tarantula.svg';
-import {ReactComponent as Reminders} from '../../images/svg/reminders.svg';
-import {ReactComponent as Gallery} from '../../images/svg/gallery.svg';
+import {ReactComponent as Cockroach } from './../images/svg/cockroach.svg';
+import {ReactComponent as Spider } from './../images/svg/tarantula.svg';
+import {ReactComponent as Reminders} from './../images/svg/reminders.svg';
+import {ReactComponent as Gallery} from './../images/svg/gallery.svg';
 import { Switch, Link, Route } from 'react-router-dom';
-import Navbar from '../../components/Navbar';
-import Login from '../login/login';
+import Navbar from './Navbar';
+import Login from './login';
 
 
 export const Register = () =>{
@@ -12,11 +12,7 @@ export const Register = () =>{
     
      
       <header className="App-header">
-     
-        <div className="left-container">
-       
-      <Navbar />
-        </div>
+ 
         <div className="right-container">
           <div class="register">
             <h1>Register</h1>

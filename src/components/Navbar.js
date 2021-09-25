@@ -1,19 +1,20 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css";
+import Login from "./login";
+import Register from "./Register";
 
 const Navbar = () => {
   return (
-    <nav>
-      <Router>
-        <div>
-          <img className="logo" src="logo.svg" alt="logo" />
-        </div>
+   <Router>
+    
+      <nav>
+        <img className="logo" src="logo.svg" alt="logo" />
+
         <div className="boxes">
-          <Switch>
-            <div className="box">
-              <h2>Contact us</h2>
-            </div>
-          </Switch>
+          <div className="box">
+            <h2>Contact us</h2>
+          </div>
+
           <div className="box">
             <h2>About us</h2>
           </div>
@@ -24,8 +25,9 @@ const Navbar = () => {
             <h2>Register</h2>
           </div>
         </div>
-      </Router>
-    </nav>
+      </nav></Router>
+
   );
 };
+
 export default Navbar;

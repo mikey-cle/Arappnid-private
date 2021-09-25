@@ -1,22 +1,14 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Register from "../register/register";
 import "./login.css";
-import Navbar from "../../components/Navbar";
+import Navbar from "./Navbar";
+
 
 export const Login = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Register} />
-        <Route path="/register" component={Register} />
-        <Route path="login" component={Login} />
-      </Switch>
+  
 
       <div className="App">
         <header className="App-header">
-          <div className="left-container">
-            <Navbar />
-            </div>
+       
 
           <div className="right-container">
             <div class="register">
@@ -59,8 +51,7 @@ export const Login = () => {
           </div>
         </header>
       </div>
-    </Router>
-  );
-};
+    
+  )};
 
 export default Login;
