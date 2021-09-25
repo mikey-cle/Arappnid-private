@@ -16,7 +16,7 @@ function App() {
      </div>
      <div className = 'right-container'>
     <Switch>
- 
+  
      <Route path = '/login' component = {Login} />
      <Route path = '/register' component = {Register} />
      </Switch>

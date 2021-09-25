@@ -5,6 +5,7 @@ import {ReactComponent as Gallery} from './../images/svg/gallery.svg';
 import { Switch, Link, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Login from './login';
+import '../App.css';
 
 
 export const Register = () =>{
