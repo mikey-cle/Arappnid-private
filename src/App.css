@@ -218,6 +218,9 @@ label {
     flex-wrap: wrap;
     padding-left: 20vw;
   }
+  .box {
+    min-height: 20vh;
+  }
   .submit {
     width: 30vw;
     margin-right: 14vw;
