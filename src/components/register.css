@@ -1,0 +1,79 @@
+
+.form-container-reg {
+    max-height: 100vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h4 {
+    font-size: large;
+    font-family: "Poiret One", cursive;
+    filter:brightness(10) !important;
+  }
+.reg-benefits-cont-reg {
+    padding-bottom: 0vh;
+}
+.benefits {
+    min-height: 50vh;
+    margin-top: 5vh;
+}
+.submit-reg {
+    min-width: 10vw;
+}
+.form-inner-reg {
+    min-width: 10vw;
+   
+}
+.pass-login {
+    margin-left: 0vw;
+}
+.btn-reg {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px){
+    .form-container-reg {
+        max-height: 100vh;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 600px){
+    .form-inner-reg {
+        max-height: 100vh;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .pass-register{
+        margin-left: 5vw;
+    }
+    .submit-login {
+        margin-top: 2vh;
+        min-width: 30vw;
+        border-radius: 2vh 2vh 2vh 2vh;
+        min-height: 5vh;
+        background-color: blueviolet;
+        color: white;
+        font-size: 1em;
+    
+    }
+.submit-reg{
+    margin-top: 2vh;
+    min-width: 30vw;
+    border-radius: 2vh 2vh 2vh 2vh;
+    min-height: 5vh;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1em;
+    margin-left: 20vw;
+}
+.pass-register{
+    margin-left: 8vw;
+}
+}

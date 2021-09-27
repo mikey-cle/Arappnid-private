@@ -2,10 +2,7 @@ import {ReactComponent as Cockroach } from './../images/svg/cockroach.svg';
 import {ReactComponent as Spider } from './../images/svg/tarantula.svg';
 import {ReactComponent as Reminders} from './../images/svg/reminders.svg';
 import {ReactComponent as Gallery} from './../images/svg/gallery.svg';
-import { Switch, Link, Route } from 'react-router-dom';
-import Navbar from './Navbar';
-import Login from './login';
-import '../App.css';
+import './register.css';
 
 
 export const Register = () =>{
@@ -14,7 +11,7 @@ export const Register = () =>{
      
       <header className="App-header">
  
-        <div className="right-container">
+  
           <div class="register">
             <h1>Register</h1>
             <p className="sub-text">
@@ -23,34 +20,37 @@ export const Register = () =>{
             </p>
           
               
-              <form className="form-container">
-             <div className="form-inner">
+              <form className="form-container-reg">
+             <div className="form-inner-reg">
                 <label className="first-name">Name</label>
                 <input type='textbox' className="form-input"></input>
                 </div>
                
-                <div className="form-inner">
+                <div className="form-inner-reg">
                 <label>Surname</label>
                 <input type='textbox' className="form-input"></input>
                 </div>
-                <div className="form-inner">
+                <div className="form-inner-reg">
                 <label>Username</label>
                 <input type='textbox' className="form-input"></input>
                 </div>
-                <div class="form-inner">
+                <div class="form-inner-reg">
                 <label>Email</label>
                 <input type='textbox' className="form-input"></input>
                 </div>
-                <div className="form-inner">
-                <label>Password</label>
+                <div className="form-inner-reg">
+                <label className='pass-register'>Password</label>
                 <input type='password' className="form-input"></input>
                 </div> <div>
-                  <div className="button-container">
-                  <button className="submit">Submit</button>
-                </div></div>
-                <div>
+                </div>
+                <div>  
                 
-               </div>
+               </div><div></div>
+               <div className="button-container-reg">
+                 <div className='btn-reg'>
+                  <button className="submit-reg">Submit</button>
+                </div>
+                </div>
               </form>
               <h1>Benefits of Registering</h1>
               <div className="reg-benefits-cont">
@@ -70,11 +70,11 @@ export const Register = () =>{
                 </div>
                 <div className="benefits">
                   <Gallery className="pic"/>
-                  <h4> Personal Gallery</h4>
+                  <h4>Personal Gallery</h4>
                 </div>
               </div>
         </div>
-        </div>
+      
         
       </header>
      

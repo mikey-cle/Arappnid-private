@@ -1,4 +1,4 @@
-import "./login.css";
+import './login.css';
 import Navbar from "./Navbar";
 
 
@@ -10,25 +10,24 @@ export const Login = () => {
         <header className="App-header">
        
 
-          <div className="right-container">
             <div class="register">
               <h1>Login</h1>
               <p className="sub-text">Please login to use Arappnid.</p>
 
-              <form className="form-container">
-                <div className="form-inner">
-                  <div className="form-inner">
-                    <label>Username</label>
+              <form className="form-container-login">
+                <div className="form-inner-login">
+                  <div className="form-inner-login">
+                    <label className = 'lblLogin'>Username</label>
                     <input type="textbox" className="form-input"></input>
                   </div>
-                  <div class="form-inner">
-                    <div className="form-inner">
-                      <label>Password</label>
+                  <div class="form-inner-login">
+                    <div className="form-inner-login">
+                      <label className = 'lblLogin-pass'>Password</label>
                       <input type="password" className="form-input"></input>
                     </div>{" "}
                     <div>
                       <div className="button-container">
-                        <button className="submit">Submit</button>
+                        <button className="submit-login">Submit</button>
                       </div>
                     </div>
                   </div>
@@ -48,7 +47,7 @@ export const Login = () => {
                 </p>
               </div>
             </div>
-          </div>
+  
         </header>
       </div>
    

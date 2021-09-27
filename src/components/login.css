@@ -1,0 +1,36 @@
+.form-inner {
+    min-width: 80vw;
+}
+.reg-benefits-cont {
+    font-size: medium;
+    text-align: center;
+    padding-right: 4vw;
+}
+@media only screen and (max-width: 600px) {
+ .form-input-login, .form-inner-login, .lblLogin{
+     margin-left: 0vw;
+     display: flex;
+     flex-direction: column;
+     padding: 1vh, 1vw, 1vh, 1vw;
+     text-align: center;
+ }
+  }
+
+.submit-login {
+    margin-top: 2vh;
+    min-width: 30vw;
+    border-radius: 2vh 2vh 2vh 2vh;
+    min-height: 5vh;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1em;
+
+}
+.lblLogin-pass {
+    margin-right: 1vw;
+}
+@media only screen and (max-width: 600px){
+    .lblLogin-pass {
+        padding-right: 8vw;
+    }
+}
